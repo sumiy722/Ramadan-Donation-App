@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: url('https://i.imgur.com/DoFzplR.jpg') no-repeat center center fixed;
+  background: url('image.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: rgba(0, 0, 0, 0.7); /* semi-transparent dark background */
+  background-color: rgba(0, 0, 0, 0.6); /* slightly see-through for elegance */
   padding: 20px 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
@@ -36,7 +36,7 @@ main {
 }
 
 form {
-  background-color: rgba(255, 255, 255, 0.9); /* white with some transparency */
+  background-color: rgba(255, 255, 255, 0.9); /* soft white box */
   padding: 20px;
   border-radius: 10px;
   display: inline-block;
