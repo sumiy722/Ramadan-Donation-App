@@ -1,69 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
-  background: url('image.png') no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-}
-
-header {
-  background-color: rgba(0, 0, 0, 0.6); /* slightly see-through for elegance */
-  padding: 20px 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-  margin: 0;
-  font-size: 28px;
-  color: #f9f9f9;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  margin: 0 15px;
-  color: #ffc107; /* golden yellow */
-  font-weight: bold;
-}
-
-main {
-  padding: 40px 20px;
-}
-
-form {
-  background-color: rgba(255, 255, 255, 0.9); /* soft white box */
-  padding: 20px;
-  border-radius: 10px;
-  display: inline-block;
-  margin-top: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
-}
-
-input {
-  margin: 10px;
-  padding: 10px;
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #0077cc;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-#message {
-  margin-top: 15px;
-  font-size: 16px;
-  color: #ffffff;
-}
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form input {
+    margin: 10px;
+    padding: 10px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
